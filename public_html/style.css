@@ -6,7 +6,7 @@ main, header, article, footer{
     text-align: center;
 }
 body{
-    background-color: lightgray;
+    background-color: darkgray;
 }
 main {
     max-width: 800px;
@@ -26,12 +26,12 @@ article{
 }
 header{
     grid-area: h;
-    background-color: lightgray;
+    background-color: lightseagreen;
 }
 footer{
     grid-area: f;
     border: 1px solid gray;
-    background-color: lightgray;
+    background-color: lightseagreen;
 }
 div{
     max-width: 350pt;
