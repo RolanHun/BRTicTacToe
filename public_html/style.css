@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+main, header, article, footer{
+    border: 2px solid gray;
+    padding: 10px;
+    text-align: center;
+}
+body{
+    background-color: lightgray;
+}
+main {
+    max-width: 800px;
+    margin: auto;
+    display: grid;
+    grid-template-areas:
+        "h h h"
+        "a a a"
+        "f f f";
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+}
+article{
+    grid-area: a;
+    margin: auto;
+}
+header{
+    grid-area: h;
+    background-color: lightgray;
+}
+footer{
+    grid-area: f;
+    border: 1px solid gray;
+    background-color: lightgray;
+}
+div{
+    max-width: 350pt;
+}
+img{
+    padding: 5px;
+    max-width:100pt;
+    max-height:100pt;
+}
+#XColor{
+    float: left;
+}
+#OColor{
+    float: right;
+}
+#XName{
+    text-align: center;
+}
+#OName{
+    text-align: center;
+}
